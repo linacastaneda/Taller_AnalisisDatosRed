@@ -1,0 +1,7 @@
+corrida,paquetes_csv,muestras_tc,ventanas_total,ventanas_validas,filas_modelo,descartes_en_ventanas,ventanas_con_descartes,inicios_observados
+C01,220359,306,305,305,302,49971,92,2
+C02,216191,306,305,305,302,54658,91,2
+C03,212025,305,304,304,301,45284,92,2
+C04,231487,306,305,305,302,46656,131,2
+C05,216192,306,305,305,302,49971,92,2
+C06,210982,306,305,305,302,68721,92,2

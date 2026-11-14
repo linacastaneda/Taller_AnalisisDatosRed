@@ -1,0 +1,115 @@
+{
+  "modelo": "LinearRegression",
+  "variables": [
+    "tasa_mbps",
+    "tasa_lag1",
+    "tasa_lag2",
+    "num_paquetes"
+  ],
+  "coeficientes": {
+    "intercepto": -351.57290862756736,
+    "tasa_mbps": 5215.60513814715,
+    "tasa_lag1": -17.383607163969536,
+    "tasa_lag2": 28.970443823763073,
+    "num_paquetes": -50.818772557284724
+  },
+  "umbral_alerta_modelo": 1.0,
+  "umbral_regla_tasa_mbps": 8.287561846307058,
+  "tamanos": {
+    "entrenamiento": 905,
+    "validacion": 302,
+    "prueba": 604
+  },
+  "validacion": {
+    "MAE_paquetes": 130.05322882330523,
+    "VN": 50,
+    "FP": 121,
+    "FN": 0,
+    "VP": 131,
+    "precision": 0.5198412698412699,
+    "sensibilidad": 1.0
+  },
+  "prueba": {
+    "C05": {
+      "MAE_paquetes": 130.37826579404495,
+      "modelo": {
+        "VN": 85,
+        "FP": 125,
+        "FN": 2,
+        "VP": 90,
+        "precision": 0.4186046511627907,
+        "sensibilidad": 0.9782608695652174,
+        "inicios_evaluables": 2,
+        "inicios_anticipados": 1,
+        "inicios_omitidos": 1,
+        "fraccion_anticipados": 0.5
+      },
+      "regla_tasa": {
+        "VN": 172,
+        "FP": 38,
+        "FN": 2,
+        "VP": 90,
+        "precision": 0.703125,
+        "sensibilidad": 0.9782608695652174,
+        "inicios_evaluables": 2,
+        "inicios_anticipados": 1,
+        "inicios_omitidos": 1,
+        "fraccion_anticipados": 0.5
+      }
+    },
+    "C06": {
+      "MAE_paquetes": 183.25895678889114,
+      "modelo": {
+        "VN": 78,
+        "FP": 132,
+        "FN": 0,
+        "VP": 92,
+        "precision": 0.4107142857142857,
+        "sensibilidad": 1.0,
+        "inicios_evaluables": 2,
+        "inicios_anticipados": 2,
+        "inicios_omitidos": 0,
+        "fraccion_anticipados": 1.0
+      },
+      "regla_tasa": {
+        "VN": 172,
+        "FP": 38,
+        "FN": 2,
+        "VP": 90,
+        "precision": 0.703125,
+        "sensibilidad": 0.9782608695652174,
+        "inicios_evaluables": 2,
+        "inicios_anticipados": 1,
+        "inicios_omitidos": 1,
+        "fraccion_anticipados": 0.5
+      }
+    },
+    "total": {
+      "MAE_paquetes": 156.81861129146807,
+      "modelo": {
+        "VN": 163,
+        "FP": 257,
+        "FN": 2,
+        "VP": 182,
+        "precision": 0.4145785876993166,
+        "sensibilidad": 0.9891304347826086,
+        "inicios_evaluables": 4,
+        "inicios_anticipados": 3,
+        "inicios_omitidos": 1,
+        "fraccion_anticipados": 0.75
+      },
+      "regla_tasa": {
+        "VN": 344,
+        "FP": 76,
+        "FN": 4,
+        "VP": 180,
+        "precision": 0.703125,
+        "sensibilidad": 0.9782608695652174,
+        "inicios_evaluables": 4,
+        "inicios_anticipados": 2,
+        "inicios_omitidos": 2,
+        "fraccion_anticipados": 0.5
+      }
+    }
+  }
+}

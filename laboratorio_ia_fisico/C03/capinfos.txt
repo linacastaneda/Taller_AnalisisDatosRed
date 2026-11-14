@@ -1,0 +1,27 @@
+File name:           /home/lina/laboratorio_ia_fisico/C03/captura.pcap
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 96 bytes
+Packet size limit:   inferred: 96 bytes
+Number of packets:   212 k
+File size:           23 MB
+Data size:           263 MB
+Capture duration:    300,330896 seconds
+Earliest packet time: 2026-11-14 09:38:39,927592
+Latest packet time:   2026-11-14 09:43:40,258488
+Data byte rate:      876 kBps
+Data bit rate:       7.014 kbps
+Average packet size: 1241,96 bytes
+Average packet rate: 705 packets/s
+SHA256:              115205dcbbf1666828ad8cb2f22c034a1ca0efd5d9f505c2bf59a3a89614c104
+SHA1:                d756ade09f75a1942b58f4fc839b5d38c338ca7b
+Strict time order:   True
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 96
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 212025

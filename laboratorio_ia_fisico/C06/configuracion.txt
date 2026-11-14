@@ -1,0 +1,6 @@
+corrida=C06
+interfaz=enp7s0
+emisor=192.168.50.10
+receptor=192.168.50.20
+inicio_trafico_unix=1794668085.883060301
+fin_trafico_unix=1794668386.268146270

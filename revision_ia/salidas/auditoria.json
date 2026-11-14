@@ -1,0 +1,10 @@
+{
+  "filas_dataset": 1811,
+  "filas_prueba": 604,
+  "correlacion_tasa_paquetes": 0.9999967978604487,
+  "tasa_maxima_mbps": 10.029943961632448,
+  "MAE_prueba": 156.81861129146807,
+  "num_inicios_prueba": 4,
+  "inicios_modelo": 3,
+  "inicios_regla": 2
+}

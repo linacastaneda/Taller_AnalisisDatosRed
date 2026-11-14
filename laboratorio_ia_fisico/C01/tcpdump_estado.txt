@@ -1,0 +1,5 @@
+dropped privs to tcpdump
+tcpdump: listening on enp7s0, link-type EN10MB (Ethernet), snapshot length 96 bytes
+220359 packets captured
+220359 packets received by filter
+0 packets dropped by kernel
